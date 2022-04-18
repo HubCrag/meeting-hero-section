@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  @include a {
+    position: relative;
+    order: 2;
+    display: block;
+    width: 100%;
+    padding: 0; // 30px
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    &.is-active {
+      padding: 30px 0;
+      max-height: 25rem;
+      background: #1a171ef0;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    @include a {
+      display: block;
+    }
+  }
+  &__item {
+    @include a {
+      padding: 8px;
+    }
+    &:not(:last-of-type) {
+      margin-right: 24px;
+      @include a {
+        margin-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 20px;
+    @include a {
+      display: block;
+    }
+  }
+}

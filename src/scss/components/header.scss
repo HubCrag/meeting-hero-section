@@ -1,0 +1,39 @@
+.header {
+  padding: 63px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  a {
+    text-decoration: none;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    @include a {
+        flex-wrap: wrap;
+    }
+    .logo {
+      margin-right: 60px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+  .btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 15px 25px;
+    background: #4194f4;
+    border-radius: 18px;
+    @include a {
+      display: block;
+      text-align: center;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      margin-top: 24px;
+    }
+  }
+}

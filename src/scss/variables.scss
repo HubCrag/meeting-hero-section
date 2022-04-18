@@ -1,0 +1,49 @@
+/* Main Colors */
+$color-base:#1A171E;
+$color-graybase:#000;
+$color-white: #fff;
+
+$color-primary:#4e4d8f;
+$color-secondary:#00092b;
+
+$color-smooth:#6F6F6F;
+$color-fill:#EEEEEE;
+
+$color-bg:$color-base;
+$color-text:#fff;
+$color-link:inherit;
+$color-link-hover:inherit;
+
+/* Fonts */
+$font-family:"Montserrat", sans-serif;
+$font-size:14px;
+$font-weight:normal;
+$letter-spacing:normal;
+$line-height:normal;
+
+/* Screen sizes */
+$screen-s:360px;
+$screen-a:768px;
+$screen-m:992px;
+$screen-n:1024px;
+$screen-t:1200px;
+$screen-d:1350px;
+$screen-x:1600px;
+$screen-w:1900px;
+
+$screen-s-min:$screen-s;
+$screen-s-max:($screen-s - 1);
+$screen-a-min:$screen-a;
+$screen-a-max:($screen-a - 1);
+$screen-m-min:$screen-m;
+$screen-m-max:($screen-m - 1);
+$screen-n-min:$screen-n;
+$screen-n-max:($screen-n - 1);
+$screen-t-min:$screen-t;
+$screen-t-max:($screen-t - 1);
+$screen-d-min:$screen-d;
+$screen-d-max:($screen-d - 1);
+$screen-x-min:$screen-x;
+$screen-x-max:($screen-x - 1);
+$screen-w-min:$screen-w;
+$screen-w-max:($screen-w - 1);
